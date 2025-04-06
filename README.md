@@ -1,2 +1,12 @@
-# Eve-Item-list-ID-fetcher
-fetches item id using fuzzworks from a Janice list
+# Item TypeID Fetcher
+
+This script reads item names and quantities from a tab-separated text file (`input.txt`), retrieves their corresponding `typeID` from an external API, and exports the results to a CSV file (`output.csv`) with the following columns:
+
+- **Name**: The name of the item.
+- **Amount**: The quantity of the item.
+- **TypeID**: The unique identifier for the item fetched from the API.
+
+## Prerequisites
+
+- Python 3.x
+- The `requests` library (used for making HTTP requests to the API).
