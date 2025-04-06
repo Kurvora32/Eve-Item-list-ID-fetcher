@@ -1,6 +1,6 @@
 # Item TypeID Fetcher
 
-This script reads item names and quantities from a tab-separated text file (`input.txt`), retrieves their corresponding `typeID` from an external API, and exports the results to a CSV file (`output.csv`) with the following columns:
+This script reads item names and quantities from a tab-separated text file (`input.txt`) (only tested format copied out of [Janice.com](https://janice.e-351.com)), retrieves their corresponding `typeID` from an external API, and exports the results to a CSV file (`output.csv`) with the following columns:
 
 - **Name**: The name of the item.
 - **Amount**: The quantity of the item.
